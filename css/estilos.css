@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: end;
+}
+
+.left-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-image: url("../img/ushuaia.jpg");
+    background-color: transparent;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.form-container .user-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-container .new-user {
+    color: coral;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#terms-and-conditions {
+    width: auto;
+    display: inline-block;
+}
+
+.terms-label {
+    display: inline-block;
+}
+
+.send-button {
+    border-style: none;
+    background-color: coral;
+    color: white;
+    height: 30px;
+}
