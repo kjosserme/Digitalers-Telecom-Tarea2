@@ -20,6 +20,7 @@ input {
 main {
     display: flex;
     justify-content: end;
+    -webkit-justify-content: flex-end;
 }
 
 .left-img {
